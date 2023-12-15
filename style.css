@@ -13,6 +13,9 @@ padding: 0%;
     position: relative;
     align-items: center;
 }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;0,700;0,900;1,400&family=Pacifico&display=swap');
+
 .maincontainer{
 align-items: center;
 }
@@ -30,7 +33,7 @@ align-items: center;
 
 
 .btn-play{
-   
+   padding: 2rem 0rem;
     width: 100%;
     display: flex;
     
@@ -38,8 +41,30 @@ align-items: center;
 }
 
 .btn-play h1{
-    border: 1rem solid #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    border-radius: 2rem;
+    border: 0.3rem solid #fff;
     background-color: transparent;
     color: white;
     padding: 2rem;
+    font-size: 2rem;
+}
+
+.btn-play h1:hover{
+    opacity: 0.5;
+}
+
+.play{
+    padding: 4rem;
+    background-color: blueviolet;
+}
+
+.play div{
+    padding: 4rem;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+
 }
